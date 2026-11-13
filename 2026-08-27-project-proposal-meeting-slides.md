@@ -104,9 +104,3 @@ Several possible approaches:
 # Practicalities
 
 We want to target next ARR cycle (deadline **October 12 AoE**)
-
-Other details:
-- Nicolas will TA a course Sept-Oct
-- Satiya will be involved in other projects with Adel
-
-Link to the [project Overleaf](https://www.overleaf.com/6638564516fyfrvfpxffqd#729014).

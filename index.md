@@ -1,6 +1,5 @@
 ---
 tags:
-  - notes/meeting
   - nlp-reading-group
 ---
 1) What is an [SAE](./SAE-sparse-autoencoders.md)?
