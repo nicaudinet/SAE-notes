@@ -12,4 +12,3 @@
 4) Unlearning and targeted model editing:
     - [SHIFT](./SHIFT-sparse-human-interpretable-feature-trimming.md)
     - [LangSAE](./LangSAE-Editing-improving-multilingual-information-retrieval-via-post-hoc-language-identity-removal.md)
-    - [my project](./SAE-scrubbing.md)

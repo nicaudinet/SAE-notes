@@ -8,7 +8,7 @@ Given labeled training data $D = {(x_i, y_i)}$, a LM-based classifier $C$, and S
 
 ## Removing gender signal
 
-They subsample the [bias-in-biographies-dataset](./bias-in-biographies-dataset.md) dataset to create:
+They subsample the [Bias in Biographies](https://huggingface.co/datasets/LabHC/bias_in_bios) dataset to create:
 - Ambiguous set of only male professors and female nurses
 - Balanced set of equal number of male/female professors and male/female nurses
 

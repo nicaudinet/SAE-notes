@@ -8,10 +8,6 @@ https://arxiv.org/pdf/2403.19647
 
 ---
 
-[sparse-feature-circuits-running-code-notes](./sparse-feature-circuits-running-code-notes.md)
-
----
-
 This paper introduces the idea of Sparse Feature Circuits (SFCs), subgraphs of the causal graph implied by a neural network with interpretable features. They build on [SAE-sparse-autoencoders](./SAE-sparse-autoencoders.md) to find interpretable features, and linear approximations of the [indirect effect](./natural-direct-and-indirect-effects.md) to find causal links between the features. They further show that humans can use these causal graphs to efficiently remove unintended signals from the graph (SHIFT) and that they can discover these graphs at scale in an unsupervised manner.
 
 Key challenge of interpretability: explained unanticipated model behaviours at scale
@@ -83,5 +79,3 @@ Almost automated interpretability pipeline:
 - Ok but like reductionism is a thing ... what if those narrow fine-grained components don't actually exist? What about the [FER](./the-fractured-entangled-representation-hypothesis-FER.md) hypothesis?
 - Why do they filter out nodes and edges with low average
 - How does this relate to the causal abstraction work?
-
-[extracting-sparse-feature-circuits](./extracting-sparse-feature-circuits.md)

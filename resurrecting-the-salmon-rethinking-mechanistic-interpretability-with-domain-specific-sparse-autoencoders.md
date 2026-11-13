@@ -19,7 +19,7 @@ The problems of broad-domain SAEs they outline include
 
 They train [JumpReLU SAEs](./jumping-ahead-improving-reconstruction-fidelity-with-JumpReLU-sparse-autoencoders.md) at layer 20 in Gemma 2 (both 2B and 9B).
 
-They use a dataset constructed from a few different medical QA datasets. For each example they concatenate the question, multiple choice options, correct answer, and any other details into a single string. In total this amounted to ~200K examples and ~50M tokens. They published their dataset [here](./dataset-medical-qa-combined.md).
+They use a dataset constructed from a few different medical QA datasets. For each example they concatenate the question, multiple choice options, correct answer, and any other details into a single string. In total this amounted to ~200K examples and ~50M tokens. They published their dataset [here](https://huggingface.co/datasets/charlieoneill/medical-qa-combined).
 
 > Preserving a uniform structure allows us to remove the need to learn a significant number of features that correspond simply to the structure of the text rather than its contents.
 

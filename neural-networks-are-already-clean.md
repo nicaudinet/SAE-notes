@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/blog
+  - blog
 ---
 https://already-clean.goodfire.com/#language-models
 

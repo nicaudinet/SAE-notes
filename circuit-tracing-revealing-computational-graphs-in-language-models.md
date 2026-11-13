@@ -1,6 +1,6 @@
 ---
 tags:
-  - paper
+  - blog
 ---
 https://transformer-circuits.pub/2025/attribution-graphs/methods.html
 

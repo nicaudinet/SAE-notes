@@ -1,5 +1,5 @@
 ---
 tags:
-  - paper
+  - blog
 ---
 https://tsglab.github.io/mechinterp-safety/

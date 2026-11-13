@@ -1,3 +1,7 @@
+---
+tags:
+  - paper
+---
 Position paper by Ken Stanley (of novelty search)
 https://arxiv.org/pdf/2505.11581
 

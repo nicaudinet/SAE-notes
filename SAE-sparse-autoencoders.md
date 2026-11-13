@@ -107,6 +107,11 @@ The motivation for SAEs rests on [three hypotheses](./sparse-autoencoder-motivat
 
 SAEs have become a popular tool in the mechanistic interpretability community and have found several [use cases](./SAE-use-cases.md).
 
+SAEs are typically used to analyse or intervene on the internal activations of
+language models. There is a branch of research which focuses on training them on
+[text embeddings](./sparse-autoencoders-trained-on-text-embeddings.md) which I
+find compelling.
+
 Interpreting SAE features can be as challenging as training the SAE themselves. Feature interpretation can be done at scale with an [autointerp pipeline](./SAE-feature-interpretation.md).
 
 SAEs have several known [failure modes](./SAE-failure-modes.md). Researchers have created [many variants](./sparse-autoencoder-variants.md) to mitigate and address these failure modes.

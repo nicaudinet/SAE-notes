@@ -1,3 +1,7 @@
+---
+tags:
+  - blog
+---
 https://blog.eleuther.ai/autointerp/
 
 ---

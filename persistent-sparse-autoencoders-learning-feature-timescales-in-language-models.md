@@ -1,3 +1,7 @@
+---
+tags:
+  - paper
+---
 https://arxiv.org/pdf/2607.17117
 
 ---

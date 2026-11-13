@@ -12,7 +12,7 @@ To address this they propose measuring SAEs directly on downstream applications.
 
 Differences from the original SHIFT:
 * They use an LLM judge rather than a human
-* They use both [Bias in Biographies](./bias-in-biographies-dataset.md) and [McAuley Amazon Reviews](./McAuley-amazon-reviews-dataset.md)
+* They use both [Bias in Biographies](https://huggingface.co/datasets/LabHC/bias_in_bios) and [McAuley Amazon Reviews](https://amazon-reviews-2023.github.io/)
 * They remove all unrelated features (spurious and neutral)
 * They select top $n$ SAE features according to the absolute attribution score
 
