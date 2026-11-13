@@ -82,6 +82,6 @@ Almost automated interpretability pipeline:
 
 - Ok but like reductionism is a thing ... what if those narrow fine-grained components don't actually exist? What about the [FER](./the-fractured-entangled-representation-hypothesis-FER.md) hypothesis?
 - Why do they filter out nodes and edges with low average
-- How does this relate to the [[causal-abstraction]] work?
+- How does this relate to the causal abstraction work?
 
 [extracting-sparse-feature-circuits](./extracting-sparse-feature-circuits.md)

@@ -12,7 +12,7 @@ This is a problem because, due to the sparsity and reconstruction loss, an SAE i
 
 Instead, they propose changing the loss function to:
 1) Promote SAE feature sparsity (same as before)
-2) Minimise the [[KL-divergence|KL divergence]] between the output distribution of the original model and the output distribution of a model with the SAE replacing the sub-component it's trying to explain
+2) Minimise the KL divergence between the output distribution of the original model and the output distribution of a model with the SAE replacing the sub-component it's trying to explain
 
 Optionally, one can also add terms for the reconstruction loss of all internal activations downstream of the SAE to minimise the likelihood that the SAE learns to take different computational paths than the original model.
 

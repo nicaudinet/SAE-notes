@@ -11,6 +11,6 @@ One of the questions I had when reading this work was: can we somehow extract th
 - Interpretability: if the extracted networks are small enough they might be easier to interpret / understand. We could even adapt the structure of the networks to "fit" the 
 - We can use SHIFT to remove unintended features by hand from the circuits as we extract them to make them more robust
 
-If this works, I can imagine making a "language toolbox" with composable "language tools" which could be used for [[program-synthesis]] for language tasks! This would be interesting for:
+If this works, I can imagine making a "language toolbox" with composable "language tools" which could be used for program synthesis for language tasks! This would be interesting for:
 - Validation: if we can use the extracted circuits productively, this validates that the circuits actually do what they're supposed to do
 - Interpretability: again, if the extracted circuits are small enough and can compose together, we might be able to construct language processing tools which we can inspect and understand more easily

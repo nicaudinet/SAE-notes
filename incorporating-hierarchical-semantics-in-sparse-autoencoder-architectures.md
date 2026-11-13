@@ -8,7 +8,7 @@ Paper by [Victor Veitch](./people/Victor%20Veitch.md) and others.
 
 ---
 
-They propose a hierarchical [[mixture-of-experts]]-style architecture for [SAEs](./SAE-sparse-autoencoders.md). They argue that this allows them to learn hierarchical features more efficiently, which in turn mitigates problems like [feature splitting](./feature-splitting-in-sparse-autoencoders.md).
+They propose a hierarchical mixture-of-experts-style architecture for [SAEs](./SAE-sparse-autoencoders.md). They argue that this allows them to learn hierarchical features more efficiently, which in turn mitigates problems like [feature splitting](./feature-splitting-in-sparse-autoencoders.md).
 
 They use [TopK](./topk-sparse-autoencoders.md) SAEs with LeakyReLU:
 $$

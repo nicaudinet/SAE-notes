@@ -8,7 +8,7 @@ A blog post from Nick Cammarata, a mechinterp researcher at Goodfire AI, that's 
 
 ---
 
-He argues that the story that neurons are not interpretable due to [[polysemanticity]] and [superposition](./superposition-hypothesis.md) is not true.
+He argues that the story that neurons are not interpretable due to polysemanticity and [superposition](./superposition-hypothesis.md) is not true.
 
 > The leading explanation for polysemanticity was superposition. This proposed a new learning principle: when a neural network runs out of neurons, it stops grouping related things together and instead begins folding unrelated things together, simply because they don’t interfere.
 

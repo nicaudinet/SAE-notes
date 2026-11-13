@@ -23,7 +23,7 @@ where
 - $b_e : d_{features}$
 - $b_d : d_{model}$
 
-Transcoders are trained with the same loss as SAEs which minimises the squared error and adds an $L_1$ sparsity constraint to encourage features to be [[monosemanticity|monosemantic]]:
+Transcoders are trained with the same loss as SAEs which minimises the squared error and adds an $L_1$ sparsity constraint to encourage features to be monosemantic:
 $$
 \mathcal{L}_\text{TC}(x) = \| \text{MLP}(x) - \text{TC}(x) \|_2^2 + \lambda_1 \| z_\text{TC}(x) \|_1
 $$

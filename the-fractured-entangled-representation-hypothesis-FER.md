@@ -10,7 +10,7 @@ The main argument of the paper is that, although the performance of larger netwo
 To study how good representations are, move away from benchmark performance and to more holistic representational strategies.
 
 **Fractured Entangled Representation (FER) Hypothesis**
-- Representations learned via [[stochastic-gradient-descent]] split unitary concepts into disconnected pieces
+- Representations learned via stochastic gradient descent split unitary concepts into disconnected pieces
 - The pieces are evoked in different contexts and become redundant
 - The pieces can become entangled with one another
 
@@ -29,6 +29,6 @@ The **Unified Factored Representation (UFR)** is the platonic ideal representati
 
 ---
 
-- Immediately, I think about [[tokenization]] again as a clear example of fracturing
+- Immediately, I think about tokenization again as a clear example of fracturing
 - My complex systems spidey senses tingle a little bit at the UFR - not sure how useful of a concept it is given that the real world cannot be modularly decomposed in many situations. What about computational-irreducibility?
-- Smells a lot like library learning and [[neuro-symbolic-ai]]
+- Smells a lot like library learning and neuro-symbolic AI
