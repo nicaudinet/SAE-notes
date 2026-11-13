@@ -81,7 +81,7 @@ Training optimisations based on best practices from [Towards Monosemanticity](./
 1) Tie $b_\text{pre} = b_\text{dec}$
 2) Initialise $b_\text{pre}$ to the geometric median of the training set
 3) Initialise $W_\text{dec} = W_\text{enc}^\top$
-4) Force all decoder rows to have unit norm
+4) Force all decoder rows to have [unit norm](./vector-norms.md)
 
 They use the following loss function
 $$

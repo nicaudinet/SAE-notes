@@ -82,9 +82,14 @@
 \end{document}
 ```
 
-Sparse AutoEncoders (SAEs) are an unsupervised method for learning interpretable latent features in neural networks.
+Sparse Autoencoders (SAEs) are an unsupervised method for learning interpretable
+features in neural networks.
 
-SAEs are usually structured as follows. Given an input activation $\textbf x \in \R^d$:
+The modern SAE architecture was academically introduced in [this paper](./sparse-autoencoders-find-highly-interpretable-features-in-language-models.md) and popularised by [this](./toy-models-of-superposition.md) and [this](./towards-monosemanticity.md) blog post from Anthropic.
+
+SAEs are a family of methods rather than a single architecture. That said, they all include an encoder layer which projects the input representation into feature space, and a decoder layer which reconstructs the input from feature space. Encoder and decoder layers are usually linear, with an activation function after the encoder.
+
+The original SAE architecture follows this pattern. Given an input activation $\textbf x \in \R^d$:
 $$
 \begin{align}
 \textbf z &= \text{ReLU}(W_\text{enc} \textbf x + \textbf b_\text{enc}) \\
@@ -92,22 +97,18 @@ $$
 \end{align}
 $$
 
-SAEs are trained to both minimise the squared error $\| \textbf{x} - \hat{\textbf{x}} \|_2^2$ and for sparsity of feature activations ($L_1$ loss):
+SAEs are trained to reconstruct the input while activating as few features as
+possible. The original SAE does this with a two-part loss function: a reconstruction term which minimises the squared reconstruction error and a sparsity term which minimises the sum of all feature activations ([L1 regularisation](./vector-norms.md)):
 $$
 \mathcal{L}(\textbf x) = \| \textbf x - \hat{\textbf x} \|_2^2 + \alpha \| \textbf z \|_1
 $$
 
-The motivation for SAEs rests on three hypotheses:
-1) The [Linear Representation Hypothesis](./linear-representation-hypothesis.md)
-2) The [Superposition Hypothesis](./superposition-hypothesis.md)
-3) The [Sparsity Hypothesis](./sparsity-hypothesis.md)
+The motivation for SAEs rests on [three hypotheses](./motivation-sparse-autoencoders.md). In brief, SAEs are designed for situations where concepts are linearly encoded in the input representation, concepts are sparse in the training data, and the input directions (neurons) are polysemantic.
 
-SAEs are a popular tool in the mechanistic interpretability community and have found several [use cases](./SAE-use-cases.md). They were formally introduced in [this paper](./sparse-autoencoders-find-highly-interpretable-features-in-language-models.md) but also popularised by [this](./toy-models-of-superposition.md) and [this](./towards-monosemanticity.md) blog post from Anthropic.
+SAEs have become a popular tool in the mechanistic interpretability community and have found several [use cases](./SAE-use-cases.md).
 
-SAE features are often interpreted with an [autointerp pipeline](./SAE-feature-interpretation.md).
+Interpreting SAE features can be as challenging as training the SAE themselves. Feature interpretation can be done at scale with an [autointerp pipeline](./SAE-feature-interpretation.md).
 
-SAEs have several known [failure modes](./SAE-failure-modes.md).
-
-There are [many SAE variants](./sparse-autoencoder-variants.md) to address them.
+SAEs have several known [failure modes](./SAE-failure-modes.md). Researchers have created [many variants](./sparse-autoencoder-variants.md) to mitigate and address these failure modes.
 
 SAEs are related to [transcoders](./transcoder.md).

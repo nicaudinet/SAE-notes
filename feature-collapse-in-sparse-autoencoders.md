@@ -6,4 +6,4 @@ Already in [Towards Monosemanticity](./towards-monosemanticity.md) they noticed 
 
 As of early 2026 the leading approaches to counteract feature collapse are [JumpReLU SAEs](./jumping-ahead-improving-reconstruction-fidelity-with-JumpReLU-sparse-autoencoders.md) and [BatchTopK](./BatchTopK-sparse-autoencoders.md). [OrtSAE](./OrtSAE-orthogonal-sparse-autoencoders-uncover-atomic-features.md) explicitly adds feature diversity to it's loss.
 
-Another thing that seems to help is constraining decoder columns to unit norm, particularly for deeper SAEs.
+Another thing that seems to help is constraining decoder columns to [unit norm](./vector-norms.md), particularly for deeper SAEs.

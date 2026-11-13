@@ -14,4 +14,4 @@ A good SAE must overcome several challenges during it's training. Here are a few
 
 7) [Feature absorption:](./feature-absorption-in-sparse-autoencoders.md) when a hierarchy exists between features, parent features can fail to activate in a seemingly random fashion due to the sparsity constraint.
 
-8) [Feature shrinkage:](./feature-shrinkage-in-sparse-autoencoders.md) when feature activation magnitudes in SAEs with L1-regularisation are pushed towards 0 even when they are supposed to be active, hurting reconstruction.
+8) [Feature shrinkage:](./feature-shrinkage-in-sparse-autoencoders.md) when feature activation magnitudes in SAEs with [L1](./vector-norms.md)-regularisation are pushed towards 0 even when they are supposed to be active, hurting reconstruction.

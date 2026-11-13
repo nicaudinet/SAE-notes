@@ -27,7 +27,7 @@ They use a dataset constructed from a few different medical QA datasets. For eac
 
 They use 3 unsupervised evaluation metrics.
 
-1. L0 sparsity: the expected number of active features per input
+1. [L0](./vector-norms.md) sparsity: the expected number of active features per input
 $$
 \E_{\textbf x \sim D} [ \| \textbf f (\textbf x) \|_0 ]
 $$

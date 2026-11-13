@@ -31,7 +31,7 @@ $$
 z_i = h_i \mathbb{1}[h_i > \theta_i]
 $$
 
-The usual training objective is a reconstruction loss and $L0$ sparsity penalty:
+The usual training objective is a reconstruction loss and [$L0$ sparsity penalty](./vector-norms.md):
 $$
 \mathcal{L} = \| \textbf x - \hat{\textbf{x}} \|^2_2 + \lambda \| \textbf z \|_0
 $$

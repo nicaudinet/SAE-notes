@@ -34,4 +34,4 @@ $$
 \mathcal{L} = \|x - \hat x \|^2_2
 $$
 
-The TopK function only keeps the $k$ largest latents and zeros out the rest which removes the need for the $L_1$ sparsity penalty in the loss.
+The TopK function only keeps the $k$ largest latents and zeros out the rest which removes the need for the [$L_1$ sparsity penalty](./vector-norms.md) in the loss.

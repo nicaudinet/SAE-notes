@@ -7,7 +7,7 @@ The dictionary is usually overcomplete ($m > n$), so there are more atoms than d
 $$
 \min_{D, z} \; \|x - D z\|_2^2 + \lambda \|z\|_1
 $$
-where the columns of $D$ are constrained to unit norm, otherwise the penalty could be dodged by shrinking $z$ and growing $D$.
+where the columns of $D$ are constrained to [unit norm](./vector-norms.md), otherwise the penalty could be dodged by shrinking $z$ and growing $D$.
 
 Classic sparse coding (Olshausen & Field, 1996) solves a separate optimisation problem for $z$ for every input. [SAEs](./SAE-sparse-autoencoders.md) amortise this: an encoder predicts the code $z$ in a single forward pass, and the decoder weights play the role of the dictionary $D$.
 

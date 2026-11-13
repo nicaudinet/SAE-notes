@@ -3,7 +3,7 @@ A transcoder is an approximation of a densely-activating MLP module in a transfo
 They are characterised by:
 - A wide one-layer MLP
 - ReLU activation function
-- L1 regularisation penalty on neuron activations
+- [L1 regularisation](./vector-norms.md) penalty on neuron activations
 - Trained to learn MLP outputs from inputs
 
 In equations:

@@ -68,4 +68,4 @@ m^2_\text{top} - m_\text{top}
 $$
 They are unsure if this actually achieves their goals, but observe that it seems to work empirically.
 
-They also include a small L1 sparsity loss term on feature activations for both the high-level SAE and the low-level SAEs additional to the TopK constraint.
+They also include a small [L1](./vector-norms.md) sparsity loss term on feature activations for both the high-level SAE and the low-level SAEs additional to the TopK constraint.

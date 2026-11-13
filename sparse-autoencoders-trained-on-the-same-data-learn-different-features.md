@@ -8,7 +8,7 @@ https://arxiv.org/pdf/2501.16615
 
 They show that SAEs trained on the same model and data, differing only by their random seed, learn different sets of features.
 
-ReLU SAEs trained with an L1 sparsity loss seem less seed-dependent than [TopK SAEs](./topk-sparse-autoencoders.md).
+ReLU SAEs trained with an [L1](./vector-norms.md) sparsity loss seem less seed-dependent than [TopK SAEs](./topk-sparse-autoencoders.md).
 
 They test this over multiple layers in 3 LLMs, two datasets, and multiple SAE architectures.
 

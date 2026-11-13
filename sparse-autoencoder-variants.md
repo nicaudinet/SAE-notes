@@ -1,6 +1,6 @@
 Variants of [Sparse Autoencoders](./SAE-sparse-autoencoders.md) (SAEs) used to find rich, diverse and monosemantic features from the residual streams of language models.
 
-1) [Top-K SAEs](./topk-sparse-autoencoders.md) use a TopK function to enforce sparsity rather than the $L_1$ norm
+1) [Top-K SAEs](./topk-sparse-autoencoders.md) use a TopK function to enforce sparsity rather than the [$L_1$ norm](./vector-norms.md)
 
 2) [BatchTopK](./BatchTopK-sparse-autoencoders.md) relax the TopK constraint to the batch level
 
