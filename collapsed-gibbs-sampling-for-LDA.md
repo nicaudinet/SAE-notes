@@ -1,4 +1,4 @@
-Collapsed Gibbs sampling is a markov-chain-monte-carlo method for approximately sampling an [lda-model](./lda-model.md). It is "collapsed" because both the $\theta$ and the $\phi$ are integrated out to make the algorithm more efficient. This way we only need to sample the per-word topic assignments $z_{d,n}$ from which we can then compute $\theta_d$ and $\phi_k$.
+Collapsed Gibbs sampling is a Markov chain Monte Carlo method for approximately sampling an [lda-model](./lda-model.md). It is "collapsed" because both the $\theta$ and the $\phi$ are integrated out to make the algorithm more efficient. This way we only need to sample the per-word topic assignments $z_{d,n}$ from which we can then compute $\theta_d$ and $\phi_k$.
 
 Algorithm:
 1) Randomly assign a topic to every word in the corpus
