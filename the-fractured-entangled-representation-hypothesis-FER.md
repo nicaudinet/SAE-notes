@@ -1,4 +1,4 @@
-Position paper by Ken Stanley ([novelty-search](./novelty-search.md))
+Position paper by Ken Stanley (of novelty search)
 https://arxiv.org/pdf/2505.11581
 
 ---
@@ -30,5 +30,5 @@ The **Unified Factored Representation (UFR)** is the platonic ideal representati
 ---
 
 - Immediately, I think about [[tokenization]] again as a clear example of fracturing
-- My complex systems spidey senses tingle a little bit at the UFR - not sure how useful of a concept it is given that the real world cannot be modularly decomposed in many situations. What about [computational-irreducibility](./computational-irreducibility.md)?
-- Smells a lot like [library-learning](./library-learning.md) and [[neuro-symbolic-ai]]
+- My complex systems spidey senses tingle a little bit at the UFR - not sure how useful of a concept it is given that the real world cannot be modularly decomposed in many situations. What about computational-irreducibility?
+- Smells a lot like library learning and [[neuro-symbolic-ai]]

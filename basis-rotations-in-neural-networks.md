@@ -3,7 +3,7 @@ $$
 f(x) = \phi(W^{(2)} \phi(W^{(1)} x + b^{(1)}) + b^{(2)})
 $$
 
-Then the network is representationally invariant under [basis rotations](./basis-rotation.md). This is because, given some input space rotation $x' = Rx$, we can define a transformed network where we rotate the weights back to the original transform with $W^{(1)} \to W^{(1)} R^t$:
+Then the network is representationally invariant under basis rotations. This is because, given some input space rotation $x' = Rx$, we can define a transformed network where we rotate the weights back to the original transform with $W^{(1)} \to W^{(1)} R^t$:
 $$
 f'(x) = \phi(W^{(2)} \phi(W^{(1)} R^T x + b^{(1)}) + b^{(2)})
 $$

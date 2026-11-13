@@ -27,6 +27,6 @@ It turns out that with just a linear combination of sufficiently diverse nonline
 
 In the true world model case the position explains all of the structure in the representation. In the kernel machine though the position explains very little of the structure of the representation. Therefore they propose ==reverse predictivity==: rather than asking whether the representation can predict the position, ask whether the position can predict the representation!
 
-Another similar approach they propose is ==spectral concentration==: the two leading directions of the representation (e.g. from [PCA](./principal-component-analysis-PCA.md)) should closely correspond to position in the true linear world model. This is unlikely to happen in the kernel machine case.
+Another similar approach they propose is ==spectral concentration==: the two leading directions of the representation (e.g. from PCA) should closely correspond to position in the true linear world model. This is unlikely to happen in the kernel machine case.
 
 Finally, they propose ==out-of-distribution (OOD) generalisation== as a test: kernel machine representations are likely to be more brittle than true linear world models, and therefore are more likely to generalise poorly on OOD samples. Sufficiently rich kernel machines can also generalise well though, so good OOD generalisation is not proof by itself. 

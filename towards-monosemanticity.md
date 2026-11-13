@@ -41,7 +41,7 @@ They discard architectural approaches (forcing neurons to be monosemantic) becau
 - There is a large performance hit in these models
 - Inducing activation sparsity didn't work
 - Neurons can be polysemantic even without superposition as representing multiple features ambiguously can sometimes result in a lower loss than representing a single feature and ignoring the rest
-- They had a bit more success in inducing monosemanticity using MSE losses rather than [cross-entropy](./cross-entropy-loss.md), but it was not enough to convince them to pursue this approach
+- They had a bit more success in inducing monosemanticity using MSE losses rather than cross-entropy, but it was not enough to convince them to pursue this approach
 
 # Detailed Investigations of Individual Features
 

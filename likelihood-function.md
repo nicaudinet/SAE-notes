@@ -1,1 +1,0 @@
-Given some observed data $x$, the likelihood function takes as input a set of parameters to a probability distribution and returns the probability that the data was generated from a data generating process with those parameters.

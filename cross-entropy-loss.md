@@ -1,1 +1,0 @@
-[cross-entropy](./cross-entropy.md)

@@ -26,7 +26,7 @@ Let
 - $\hat Z \in \{ 0, 1 \}$ be an indicator for whether the text contains specified concept
 - $Y \in \{ 0, 1 \}$ be a target variable
 
-Define the predictiveness of $Z$ and $\hat Z$ as separation scores (as opposed to [explained variance](./variance-explained.md), for example):
+Define the predictiveness of $Z$ and $\hat Z$ as separation scores (as opposed to explained variance, for example):
 $$
 \begin{align}
 S(Z) & := | \E[Y \mid Z = 1] - \E[Y \mid Z = 0] | \\

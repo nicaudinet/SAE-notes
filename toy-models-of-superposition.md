@@ -35,7 +35,7 @@ They show that, for a super simple model with $n=2$ and $m=1$, there are clear p
 
 Uniform features are independent and have equal sparsity and importance.
 
-They use the [frobenius-norm](./frobenius-norm.md) $\|W\|_F^2$ as an indicator for "the number of features learned" since $\|W_i\|^2 \approx 1$ is the feature is represented and $\|W_i\|^2 \approx 0$ if the feature is not. They plot $D^* = \frac{m}{\|W\|_F^2}$ as a measure of "dimensions per feature".
+They use the Frobenius norm $\|W\|_F^2$ as an indicator for "the number of features learned" since $\|W_i\|^2 \approx 1$ is the feature is represented and $\|W_i\|^2 \approx 0$ if the feature is not. They plot $D^* = \frac{m}{\|W\|_F^2}$ as a measure of "dimensions per feature".
 
 They notice a "sticky point" around $D^* = 1$ and $D^* = 0.5$. They claim this is because the feature directions organise themselves in efficient antipodal pairs where two features are encoded as opposites within a single dimension.
 

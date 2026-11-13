@@ -1,3 +1,0 @@
-Objective search creates a fixed ordering of "bad" to "good" over the states of the system. The ordering stays fixed during the search because the objective function stays fixed.
-
-Novelty search cannot provide such a fixed ordering because the objective function is constantly changing as the search progresses. In some sense, there is no idea of "bad" or "good", just "similar" and "different" - relative terms that change with what one has previously seen. Rather, it provides a different ordering: from "simple" to "complex". As Ken says [in the book](./why-greatness-cannot-be-planned.md): "when all simple ways to behave are exhausted, the only new behaviours that remain to discover are more complex" (p. 46).

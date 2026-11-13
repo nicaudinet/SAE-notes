@@ -32,12 +32,12 @@ $$
 \E_{\textbf x \sim D} [ \| \textbf f (\textbf x) \|_0 ]
 $$
 
-2. Fraction of [variance explained](./variance-explained.md) where $\V(\textbf x)$ is the sum of variances across all dimensions
+2. Fraction of variance explained where $\V(\textbf x)$ is the sum of variances across all dimensions
 $$
 1 - \frac{\V(\textbf x - \hat{\textbf x}(\textbf f (\textbf x)))}{\V(\textbf x)}
 $$
 
-3. Loss recovered where $\text{CE}(\phi)$ is the average [cross-entropy loss](./cross-entropy-loss.md) of the LLM when a function $\phi : \R^n \to \R^n$ is spliced into the model at the SAE insertion point, $\zeta : \textbf x \mapsto \textbf 0$ is the zero-ablation function, and $\text{Id} : \textbf x \mapsto \textbf x$ is the identity function
+3. Loss recovered where $\text{CE}(\phi)$ is the average cross-entropy loss of the LLM when a function $\phi : \R^n \to \R^n$ is spliced into the model at the SAE insertion point, $\zeta : \textbf x \mapsto \textbf 0$ is the zero-ablation function, and $\text{Id} : \textbf x \mapsto \textbf x$ is the identity function
 $$
 1 - \frac{\text{CE}(\hat{\textbf x} ~\circ~ \textbf f) - \text{CE}(\text{Id})}{\text{CE}(\zeta) - \text{CE}(\text{Id})}
 $$
@@ -46,7 +46,7 @@ They also evaluate interpretability by generating feature explanations and measu
 
 Feature generation is done by sampling examples from each activation decile and passing them onto a language model.
 
-Faithfulness is assessed by treating the interpretation as a classifier which predicts when a feature will activate. A good classifier should exhibit both high [precision](./precision.md) and [recall](./recall.md) They evaluate this with LLMs in two ways.
+Faithfulness is assessed by treating the interpretation as a classifier which predicts when a feature will activate. A good classifier should exhibit both high precision and recall They evaluate this with LLMs in two ways.
 
 4. Detection: they prompt an LLM with an entire sequence and ask it whether it thinks the feature will activate based on its explanation.
 

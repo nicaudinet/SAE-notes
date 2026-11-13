@@ -6,7 +6,7 @@ https://aclanthology.org/2026.acl-long.1685.pdf
 
 ---
 
-[Retrieval systems](./retrieval-augmented-models-RAG.md) rely on good document embeddings. In multilingual settings however document representations from text encoders contain language identity information alongside the desired semantic information with language information. This leads to a bias towards matching documents in the same language.
+Retrieval systems rely on good document embeddings. In multilingual settings however document representations from text encoders contain language identity information alongside the desired semantic information with language information. This leads to a bias towards matching documents in the same language.
 
 They want to fix this post-hoc since many applications rely on pre-computed embeddings which would be expensive to re-compute.
 

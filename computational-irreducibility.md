@@ -1,1 +1,0 @@
-https://www.wolframscience.com/nks/chap-12--the-principle-of-computational-equivalence/#sect-12-6--computational-irreducibility
