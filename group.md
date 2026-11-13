@@ -1,4 +1,4 @@
-A group is defined by a [[set]] $G$ and a [closed binary operation](./closed-binary-operation.md) $+$ which is [associative](./associativity.md), has an [identity element](./identity-element.md) and where each element of $G$ has an [inverse](./inverse.md).
+A group is defined by a [[set]] $G$ and a closed binary operation $+$ which is [associative](./associativity.md), has an [identity element](./identity-element.md) and where each element of $G$ has an inverse.
 
 1) $(a + b) + c = a + (b + c)$
 2) $a + 0 = a$

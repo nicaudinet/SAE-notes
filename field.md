@@ -1,4 +1,4 @@
-A field is defined as a set $F$ and two [closed binary operations](./closed-binary-operation.md) $+$ and $\times$ which satisfy the following properties:
+A field is defined as a set $F$ and two closed binary operations $+$ and $\times$ which satisfy the following properties:
 
 $F$ and $+$ form an [abelian group](./abelian-group.md):
 1) Associativity: for all $a, b, c \in F$  then $(a + b) + c = a + (b + c)$

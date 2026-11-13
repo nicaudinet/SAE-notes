@@ -1,4 +1,4 @@
-Simple feed-forward neural networks are invariant under [basis rotations](./basis-rotations-in-neural-networks.md). However, it's been empirically observed that this is not the case in other neural network architectures like [transformer](./transformer-architecture.md) MLP layers or convolutional neural networks. Instead, these networks seem to prefer a particular privileged basis and tend to align some features with neurons.
+Simple feed-forward neural networks are invariant under [basis rotations](./basis-rotations-in-neural-networks.md). However, it's been empirically observed that this is not the case in other neural network architectures like transformer MLP layers or convolutional neural networks. Instead, these networks seem to prefer a particular privileged basis and tend to align some features with neurons.
 
 In [this article](https://transformer-circuits.pub/2023/privileged-basis/index.html) they talk about 
 

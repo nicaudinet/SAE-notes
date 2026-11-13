@@ -1,6 +1,6 @@
 Maximum A Posteriori (MAP) is a way of estimating the parameters of an assumed probability distribution given some data.
 
-However, unlike [MLE](./maximum-likelihood-estimation.md), it takes a [bayesian perspective](./bayes-theorem.md) by considering a prior and maximising the posterior. In other words, given some data $D$ then
+However, unlike [MLE](./maximum-likelihood-estimation.md), it takes a bayesian perspective by considering a prior and maximising the posterior. In other words, given some data $D$ then
 $$
 \theta_\text{MAP}
 = \underset{\theta}{\text{argmax}} P(\theta \mid D)

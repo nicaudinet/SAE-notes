@@ -2,7 +2,7 @@
 
 The standard way is to use an autointerpretability pipeline. This idea was first introduced in [this paper](./automatically-interpreting-millions-of-features-in-large-language-models.md) and [this blog post](./open-source-automated-interpretability-for-sparse-autoencoder-features.md) by EleutherAI researchers. The [HypotheSAE](./HypotheSAE-sparse-autoencoders-for-hypothesis-generation.md) paper also has a nice discussion of their autointerp pipeline. Autointerp is more of an art than a science at this point though.
 
-The central idea of these pipelines is to use an [LLM](./large-language-model.md) to generate interpretations based off of training samples for which the feature activates the most:
+The central idea of these pipelines is to use an LLM to generate interpretations based off of training samples for which the feature activates the most:
 ```
 1) Train your SAE
 

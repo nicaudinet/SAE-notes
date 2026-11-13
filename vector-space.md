@@ -1,7 +1,7 @@
 A vector space is defined by the following components:
 - a [field](./field.md) $F$
 - a non-empty [[set]] $V$
-- a [closed binary operation](./closed-binary-operation.md) $+ : V \to V \to V$ called **vector addition**
+- a closed binary operation $+ : V \to V \to V$ called **vector addition**
 - a binary function $\times : F \to V \to V$ called **scalar multiplication**
 
 Elements of $V$ are called **vectors**. Elements of $F$ are called **scalars**.

@@ -2,4 +2,4 @@ Principal components are new variables constructed as a linear combination of ex
 
 They are useful to reduce dimensionality when the original variables are correlated by taking the top N components.
 
-Principal components are computed from the [eigenvectors](./eigenvalue-decomposition.md) of the [[covariance-matrix]].
+Principal components are computed from the eigenvectors of the [[covariance-matrix]].

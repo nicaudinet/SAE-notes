@@ -1,4 +1,4 @@
-A ring is defined as a set $R$ and two [closed binary operations](./closed-binary-operation.md) $+$ and $\times$ which satisfy the following properties:
+A ring is defined as a set $R$ and two closed binary operations $+$ and $\times$ which satisfy the following properties:
 
 $R$ and $+$ form an [abelian group](./abelian-group.md):
 1) Associativity: for all $a, b, c \in R$  then $(a + b) + c = a + (b + c)$

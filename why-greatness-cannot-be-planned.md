@@ -1,4 +1,4 @@
-A book by Ken Stanely and Joel Lehman about novelty search and the downsides of [objective thinking](./objective-thinking.md). Here's [a talk](https://www.youtube.com/watch?v=VDuF4onPmuE) about the subject as well.
+A book by Ken Stanely and Joel Lehman about novelty search and the downsides of objective thinking. Here's [a talk](https://www.youtube.com/watch?v=VDuF4onPmuE) about the subject as well.
 
 Objective thinking is reductionist, in that we set a difficult goal and then we assume that we can break that goal into smaller subgoals until we have a next step to make.
 

@@ -102,7 +102,7 @@ The motivation for SAEs rests on three hypotheses:
 2) The [Superposition Hypothesis](./superposition-hypothesis.md)
 3) The [Sparsity Hypothesis](./sparsity-hypothesis.md)
 
-SAEs are a popular tool in the [mechanistic interpretability](./mechanistic-interpretability.md) community and have found several [use cases](./SAE-use-cases.md). They were formally introduced in [this paper](./sparse-autoencoders-find-highly-interpretable-features-in-language-models.md) but also popularised by [this](./toy-models-of-superposition.md) and [this](./towards-monosemanticity.md) blog post from Anthropic.
+SAEs are a popular tool in the mechanistic interpretability community and have found several [use cases](./SAE-use-cases.md). They were formally introduced in [this paper](./sparse-autoencoders-find-highly-interpretable-features-in-language-models.md) but also popularised by [this](./toy-models-of-superposition.md) and [this](./towards-monosemanticity.md) blog post from Anthropic.
 
 SAE features are often interpreted with an [autointerp pipeline](./SAE-feature-interpretation.md).
 

@@ -6,7 +6,7 @@ https://transformer-circuits.pub/2023/monosemantic-features/index.html
 
 ---
 
-[mechanistic-interpretability](./mechanistic-interpretability.md) is about [[reductionism|reducing]] neural networks into easier-to-understand smaller components, which can then be used to understand the whole. They argue this is the only way to understand what is going on as otherwise the space becomes too big ([[curse-of-dimensionality]]).
+mechanistic-interpretability is about [[reductionism|reducing]] neural networks into easier-to-understand smaller components, which can then be used to understand the whole. They argue this is the only way to understand what is going on as otherwise the space becomes too big ([[curse-of-dimensionality]]).
 
 Neurons are often not a good component to study since they can be [[polysemanticity|polysemantic]]. Instead they use features form [SAE-sparse-autoencoders](./SAE-sparse-autoencoders.md) as in their previous work [toy-models-of-superposition](./toy-models-of-superposition.md). 
 

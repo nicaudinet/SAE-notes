@@ -1,4 +1,4 @@
-An abelian group is defined by a [[set]] $G$ and a [closed binary operation](./closed-binary-operation.md) $+$ which respects the following properties:
+An abelian group is defined by a [[set]] $G$ and a closed binary operation $+$ which respects the following properties:
 
 1) Associativity: for all $a,b,c \in G$ then $(a + b) + c = a + (b + c)$
 2) Commutativity: for all $a,b \in G$ then $a + b = b + a$

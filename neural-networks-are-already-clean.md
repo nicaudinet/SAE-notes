@@ -4,7 +4,7 @@ tags:
 ---
 https://already-clean.goodfire.com/#language-models
 
-A blog post from Nick Cammarata, a [mechinterp](./mechanistic-interpretability.md) researcher at Goodfire AI, that's been doing the rounds lately (Oct 2026)
+A blog post from Nick Cammarata, a mechinterp researcher at Goodfire AI, that's been doing the rounds lately (Oct 2026)
 
 ---
 
