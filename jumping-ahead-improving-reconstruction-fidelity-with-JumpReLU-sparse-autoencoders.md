@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 https://arxiv.org/abs/2407.14435
 

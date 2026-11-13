@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 https://aclanthology.org/2026.acl-long.1685.pdf
 

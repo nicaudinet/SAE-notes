@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 Bojanowski, Piotr, et al. "Enriching word vectors with subword information." _Transactions of the association for computational linguistics_ 5 (2017): 135-146.
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 https://dl.acm.org/doi/10.1145/3287560.3287572
 

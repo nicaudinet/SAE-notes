@@ -1,5 +1,5 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html

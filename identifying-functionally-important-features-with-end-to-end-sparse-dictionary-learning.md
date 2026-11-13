@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 https://proceedings.neurips.cc/paper_files/paper/2024/file/c212c1b88395ab68d5e1671c17883ec6-Paper-Conference.pdf
 

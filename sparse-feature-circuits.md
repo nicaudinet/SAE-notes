@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 **Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models** 
 Paper by Samuel Marks et al.

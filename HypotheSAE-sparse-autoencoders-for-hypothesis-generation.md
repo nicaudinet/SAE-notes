@@ -1,6 +1,6 @@
 ---
 tags:
-  - notes/paper
+  - paper
 ---
 Paper: https://arxiv.org/pdf/2502.04382
 Website: https://hypothesaes.org/
