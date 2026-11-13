@@ -1,0 +1,3 @@
+A common issue when training [SAEs](./SAE-sparse-autoencoders.md), and particularly [TopK SAEs](./topk-sparse-autoencoders.md), are =="dead neurons"==: features that never cross the threshold of top $k$ active features, never get training signal, and therefore never activate.
+
+A common way of mitigating dead neurons is to add an [AuxK](./auxk-loss-term-sparse-autoencoders.md) loss term to the training loss.

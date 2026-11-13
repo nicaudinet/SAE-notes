@@ -1,0 +1,1 @@
+Linear regression finds the line which minimises the sum of squared residuals.

@@ -1,0 +1,1 @@
+Originally introduced by [retrieval-augmented-generation-for-knowledge-intensive-NLP-tasks](./retrieval-augmented-generation-for-knowledge-intensive-NLP-tasks.md) in 2020.
