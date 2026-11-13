@@ -103,7 +103,7 @@ $$
 \mathcal{L}(\textbf x) = \| \textbf x - \hat{\textbf x} \|_2^2 + \alpha \| \textbf z \|_1
 $$
 
-The motivation for SAEs rests on [three hypotheses](./motivation-sparse-autoencoders.md). In brief, SAEs are designed for situations where concepts are linearly encoded in the input representation, concepts are sparse in the training data, and the input directions (neurons) are polysemantic.
+The motivation for SAEs rests on [three hypotheses](./sparse-autoencoder-motivation.md). In brief, SAEs are designed for situations where concepts are linearly encoded in the input representation, concepts are sparse in the training data, and the input directions (neurons) are polysemantic.
 
 SAEs have become a popular tool in the mechanistic interpretability community and have found several [use cases](./SAE-use-cases.md).
 
