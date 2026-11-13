@@ -1,11 +1,9 @@
-# Sparse autoencoders
+# Sparse Autoencoders
 
 These are my notes on and surrounding [Sparse Autoencoders](./SAE-sparse-autoencoders.md) (SAEs).
 
 The notes grew out of [my research](https://nicaudinet.com). They mix explainers
 written in my own words with summaries of the papers I read along the way.
-
-## Where to start
 
 If you're new to SAEs, this path takes you from the idea to the open problems:
 
