@@ -4,7 +4,7 @@ tags:
 ---
 https://arxiv.org/pdf/2506.01197v1
 
-Paper by [Victor Veitch](./people/Victor%20Veitch.md) and others.
+Paper by Victor Veitch and others.
 
 ---
 
