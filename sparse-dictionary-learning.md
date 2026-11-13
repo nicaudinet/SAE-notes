@@ -1,3 +1,6 @@
+---
+title: Sparse dictionary learning
+---
 Sparse dictionary learning (or sparse coding) represents each data point $x \in \mathbb{R}^n$ as a sparse linear combination of the columns ("atoms") of a learned dictionary $D \in \mathbb{R}^{n \times m}$:
 $$
 x \approx D z \quad \text{with } z \in \mathbb{R}^m \text{ mostly zero}

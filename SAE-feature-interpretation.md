@@ -1,3 +1,6 @@
+---
+title: Interpreting SAE features
+---
 [SAEs](./SAE-sparse-autoencoders.md) learn interpretable features ([sometimes](./SAE-failure-modes.md)). But how do we generate those interpretations?
 
 The standard way is to use an autointerpretability pipeline. This idea was first introduced in [this paper](./automatically-interpreting-millions-of-features-in-large-language-models.md) and [this blog post](./open-source-automated-interpretability-for-sparse-autoencoder-features.md) by EleutherAI researchers. The [HypotheSAE](./HypotheSAE-sparse-autoencoders-for-hypothesis-generation.md) paper also has a nice discussion of their autointerp pipeline. Autointerp is more of an art than a science at this point though.

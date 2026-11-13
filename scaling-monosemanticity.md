@@ -1,4 +1,5 @@
 ---
+title: "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet"
 tags:
   - blog
 ---

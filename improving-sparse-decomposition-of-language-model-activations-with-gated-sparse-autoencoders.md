@@ -1,4 +1,5 @@
 ---
+title: Improving Sparse Decomposition of Language Model Activations with Gated Sparse Autoencoders
 tags:
   - paper
 ---

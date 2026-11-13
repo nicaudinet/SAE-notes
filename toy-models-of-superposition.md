@@ -1,4 +1,5 @@
 ---
+title: Toy Models of Superposition
 tags:
   - blog
 ---

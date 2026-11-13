@@ -1,3 +1,6 @@
+---
+title: Feature splitting
+---
 ==Feature splitting== is a phenomenon observed when scaling up [SAEs](./SAE-sparse-autoencoders.md) where features tend to be partitioned into multiple more specific features which represent smaller portions of the dataset. 
 
 For example, whereas in a small SAE we might get a feature for "dog", in a large SAE we might only get features like "dog in a park context", "metaphorical use of the word dog", "dog anatomy", and so on.

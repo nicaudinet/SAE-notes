@@ -1,3 +1,6 @@
+---
+title: AuxK loss
+---
 A term added to the SAE training loss in order to combat the [dead neurons](./dead-neurons-in-sparse-autoencoders.md) in [TopK SAEs](./topk-sparse-autoencoders.md). Originally from [this post from Anthropic](https://transformer-circuits.pub/2024/jan-update/index.html#dict-learning-resampling), but this particular formulation is from the [HypotheSAE](./HypotheSAE-sparse-autoencoders-for-hypothesis-generation.md) paper.
 
 In the paper, they use the following loss function

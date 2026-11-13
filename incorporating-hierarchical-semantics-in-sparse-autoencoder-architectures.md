@@ -1,4 +1,5 @@
 ---
+title: Incorporating Hierarchical Semantics in Sparse Autoencoder Architectures
 tags:
   - paper
 ---

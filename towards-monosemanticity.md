@@ -1,4 +1,5 @@
 ---
+title: "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning"
 tags:
   - blog
 ---

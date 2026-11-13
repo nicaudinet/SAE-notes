@@ -1,3 +1,6 @@
+---
+title: Transcoders
+---
 A transcoder is an approximation of a densely-activating MLP module in a transformer layer with a wider sparsely-activating MLP layer.
 
 They are characterised by:

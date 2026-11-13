@@ -1,3 +1,6 @@
+---
+title: Demonstrating superposition
+---
 The "Demonstrating Superposition" experiment from the [Toy Models of Superposition](./toy-models-of-superposition.md) blog post.
 
 Can a simple neural network can project some high-dimensional $x \in \R^n$ into a  lower-dimensional $h \in \R^m$ and recover it?

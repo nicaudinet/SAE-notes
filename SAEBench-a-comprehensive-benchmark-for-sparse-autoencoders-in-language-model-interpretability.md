@@ -1,4 +1,5 @@
 ---
+title: "SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability"
 tags:
   - paper
 ---

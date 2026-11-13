@@ -1,4 +1,5 @@
 ---
+title: Sparse Autoencoders are Topic Models
 tags:
   - paper
 ---

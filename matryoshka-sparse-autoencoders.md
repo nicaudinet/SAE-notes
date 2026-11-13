@@ -1,3 +1,6 @@
+---
+title: Matryoshka SAEs
+---
 Matryoshka SAEs learns nested SAEs of different sizes simultaneously with only a modest increase in training time (depending on the nesting number).
 
 They are designed to mitigate feature [splitting](./feature-splitting-in-sparse-autoencoders.md), [absorption](./feature-absorption-in-sparse-autoencoders.md) and [composition](./feature-composition-in-sparse-autoencoders.md). They show that this architecture mitigates absorption and improves performance on concept erasure tasks like [SHIFT](./SHIFT-sparse-human-interpretable-feature-trimming.md).

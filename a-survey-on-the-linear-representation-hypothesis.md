@@ -1,4 +1,5 @@
 ---
+title: A Survey on the Linear Representation Hypothesis
 tags:
   - paper
 ---

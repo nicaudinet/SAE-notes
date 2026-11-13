@@ -1,3 +1,6 @@
+---
+title: "SHIFT: Sparse Human-Interpretable Feature Trimming"
+---
 Classifiers often rely on unintended signals (spurious features). Previous work almost always uses disambiguation data to remove such unintended signals. Instead, they develop Sparse Human-Interpretable Feature Trimming (SHIFT), where they have humans interpret the [sparse-feature-circuits](./sparse-feature-circuits.md) and remove unintended features by hand.
 
 Given labeled training data $D = {(x_i, y_i)}$, a LM-based classifier $C$, and SAEs for various components of $C$, SHIFT works by:

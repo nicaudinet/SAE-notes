@@ -1,4 +1,5 @@
 ---
+title: On the Origins of Linear Representations in Large Language Models
 tags:
   - paper
 ---

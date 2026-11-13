@@ -1,4 +1,5 @@
 ---
+title: BatchTopK Sparse Autoencoders
 tags:
   - paper
 ---

@@ -1,4 +1,5 @@
 ---
+title: Sparse Autoencoders Do Not Find Canonical Units of Analysis
 tags:
   - paper
 ---

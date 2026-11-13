@@ -1,3 +1,6 @@
+---
+title: SAE use cases
+---
 1) Feature discovery and representation analysis
     - [Towards Monosemanticity](./towards-monosemanticity.md) and [Scaling Monosemanticity](./scaling-monosemanticity.md)
     - [HypotheSAE](./HypotheSAE-sparse-autoencoders-for-hypothesis-generation.md)

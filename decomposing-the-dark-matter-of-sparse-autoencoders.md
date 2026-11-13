@@ -1,4 +1,5 @@
 ---
+title: Decomposing the Dark Matter of Sparse Autoencoders
 tags:
   - paper
 ---

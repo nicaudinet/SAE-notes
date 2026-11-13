@@ -1,3 +1,6 @@
+---
+title: Superposition hypothesis
+---
 Notes on the superposition hypothesis from [Toy Models of Superposition](./toy-models-of-superposition.md).
 
 ![](./Pasted%20image%2020261113095717.png)

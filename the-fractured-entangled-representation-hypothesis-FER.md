@@ -1,4 +1,5 @@
 ---
+title: "Questioning Representational Optimism in Deep Learning: The Fractured Entangled Representation Hypothesis"
 tags:
   - paper
 ---

@@ -1,3 +1,6 @@
+---
+title: Feature absorption
+---
 ==Feature absorption== is a failure mode of [SAEs](./SAE-sparse-autoencoders.md) where parent features fail to activate in a seemingly random fashion due to the sparsity constraint when a hierarchy exists between features.
 
 For example, take these two features:

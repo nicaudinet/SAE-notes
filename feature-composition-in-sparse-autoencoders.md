@@ -1,3 +1,6 @@
+---
+title: Feature composition
+---
 ==Feature composition== is a failure mode of [SAEs](./SAE-sparse-autoencoders.md) where features are combined together to minimise the number of active features due to the sparsity constraint.
 
 For example, imagine an SAE has two features:

@@ -1,3 +1,6 @@
+---
+title: TopK SAEs
+---
 An [SAE](./SAE-sparse-autoencoders.md) variant [developed by OpenAI researchers](./scaling-and-evaluating-sparse-autoencoders.md) aimed to prevent [feature collapse](./feature-collapse-in-sparse-autoencoders.md).
 
 Rather than penalising feature activation in the loss TopK SAEs explicitly limit the number of active features. They do this with a $\text{TopK} : \R^n \to \R^n$ function that keeps the $k$ largest latents and zeros out the rest:

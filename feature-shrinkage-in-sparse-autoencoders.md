@@ -1,3 +1,6 @@
+---
+title: Feature shrinkage
+---
 ==Feature shrinkage== is the systematic under-estimation of activation magnitudes in L1-regularised [SAEs](./SAE-sparse-autoencoders.md).
 
 [L1 regularisation](./vector-norms.md) encourages all activations to be as small as possible, even activations for features that _should be active_. This leads to worse reconstruction fidelity for a given sparsity level.

@@ -1,3 +1,6 @@
+---
+title: Natural direct and indirect effects
+---
 Natural 
 ==Natural Direct Effect== (NDE): How would $Y$ be affected by a change in $T$, but without the mediator $M$ changing due to $T$?
 ```tikz

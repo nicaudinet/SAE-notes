@@ -1,4 +1,5 @@
 ---
+title: Is a Linear Probe Evidence of a Linear Representation?
 tags:
   - paper
 ---

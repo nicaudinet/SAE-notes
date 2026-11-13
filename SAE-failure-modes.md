@@ -1,3 +1,6 @@
+---
+title: SAE failure modes
+---
 A good SAE must overcome several challenges during it's training. Here are a few.
 
 1) [Dark matter:](./SAE-dark-matter.md) when the SAE features is an incomplete description of the model's representations, usually indicated by a large portion of the SAE error being linearly predictable from input activations.

@@ -1,4 +1,5 @@
 ---
+title: Open Source Automated Interpretability for Sparse Autoencoder Features
 tags:
   - blog
 ---

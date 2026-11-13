@@ -1,4 +1,5 @@
 ---
+title: "Circuit Tracing: Revealing Computational Graphs in Language Models"
 tags:
   - blog
 ---

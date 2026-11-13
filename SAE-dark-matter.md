@@ -1,3 +1,6 @@
+---
+title: SAE dark matter
+---
 SAE =="dark matter"== is a failure mode of SAEs where the learned features are not a good description of the linear components of a model's internal representation. This is usually indicated by a large portion of the SAE error being linearly predictable from the input activations.
 
 For example, in [Scaling Monosemanticity](./scaling-monosemanticity.md) they found that Claude 3 Sonnet can list all the London boroughs (and many of the streets within) when asked, but features corresponding to only ~60% of the boroughs were found in a large SAE trained on the representation.

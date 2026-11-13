@@ -1,4 +1,5 @@
 ---
+title: "Persistent Sparse Autoencoders: Learning Feature Timescales in Language Models"
 tags:
   - paper
 ---

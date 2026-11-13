@@ -1,4 +1,5 @@
 ---
+title: Scaling and Evaluating Sparse Autoencoders
 tags:
   - paper
 ---

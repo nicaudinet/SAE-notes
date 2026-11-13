@@ -1,3 +1,6 @@
+---
+title: Basis rotations in neural networks
+---
 Let $f(x)$ be a simple feed-forward neural network:
 $$
 f(x) = \phi(W^{(2)} \phi(W^{(1)} x + b^{(1)}) + b^{(2)})

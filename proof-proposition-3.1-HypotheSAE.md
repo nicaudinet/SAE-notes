@@ -1,3 +1,6 @@
+---
+title: Proof of Proposition 3.1 in HypotheSAEs
+---
 Here's the proof for Proposition 3.1 from the [HypotheSAE paper](./HypotheSAE-sparse-autoencoders-for-hypothesis-generation.md) (from Appendix F).
 
 Let

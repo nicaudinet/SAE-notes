@@ -1,4 +1,5 @@
 ---
+title: Sparse Autoencoders for Hypothesis Generation (HypotheSAEs)
 tags:
   - paper
 ---

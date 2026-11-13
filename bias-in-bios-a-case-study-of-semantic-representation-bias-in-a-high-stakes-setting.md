@@ -1,4 +1,5 @@
 ---
+title: "Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting"
 tags:
   - paper
 ---

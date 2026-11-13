@@ -1,3 +1,6 @@
+---
+title: Cross-layer transcoders
+---
 A variant of the [transcoder](./transcoder.md) where features trained at layer $\ell$ directly affect features trained for _all_ downstream layers $\ell + 1$ to $L$, not just features at layer $\ell+1$.
 
 Cross-layer transcoders are thought of as spanning the whole model rather than just an MLP module in a particular layer. All features at all layers are trained all once.

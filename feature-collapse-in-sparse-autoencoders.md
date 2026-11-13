@@ -1,3 +1,6 @@
+---
+title: Feature collapse
+---
 ==Feature collapse== is a failure mode of [SAE](./SAE-sparse-autoencoders.md)  training where features tend to duplicate each other or "die" (never activate).
 
 The loss does not explicitly encourage feature diversity. Multiple features can therefore converge to similar directions and optimisation can get stuck in the local minimum. This can also result in [dead neurons](./dead-neurons-in-sparse-autoencoders.md) if one of the features ends up dominating due to sparsity.

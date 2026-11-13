@@ -1,4 +1,5 @@
 ---
+title: "Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models"
 tags:
   - paper
 ---

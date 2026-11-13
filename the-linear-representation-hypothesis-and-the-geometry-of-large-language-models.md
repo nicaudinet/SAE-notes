@@ -1,4 +1,5 @@
 ---
+title: The Linear Representation Hypothesis and the Geometry of Large Language Models
 tags:
   - paper
 ---

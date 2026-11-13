@@ -1,3 +1,6 @@
+---
+title: Linear representation hypothesis
+---
 The Linear Representation Hypothesis (LRH) is the hypothesis that, in neural networks and in particular LLMs, features of the input are represented as linear directions in the latent activation space.
 
 [LRH motivation.](./motivation-for-the-linear-representation-hypothesis.md)

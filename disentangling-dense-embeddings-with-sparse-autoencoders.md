@@ -1,4 +1,5 @@
 ---
+title: Disentangling Dense Embeddings with Sparse Autoencoders
 tags:
   - paper
 ---

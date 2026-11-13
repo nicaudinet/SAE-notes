@@ -1,3 +1,6 @@
+---
+title: Sparse autoencoders
+---
 
 ```tikz
 \usetikzlibrary{positioning}

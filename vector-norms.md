@@ -1,3 +1,6 @@
+---
+title: Vector norms
+---
 Norms allow one to measure the magnitude of vectors.
 
 The ==$L_0$ norm==, a.k.a. the "sparse norm", counts the number of non-zero elements in the vector.

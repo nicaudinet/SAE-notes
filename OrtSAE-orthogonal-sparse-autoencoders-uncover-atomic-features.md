@@ -1,4 +1,5 @@
 ---
+title: "OrtSAE: Orthogonal Sparse Autoencoders Uncover Atomic Features"
 tags:
   - paper
 ---

@@ -1,4 +1,5 @@
 ---
+title: "Resurrecting the Salmon: Rethinking Mechanistic Interpretability with Domain-Specific Sparse Autoencoders"
 tags:
   - paper
 ---

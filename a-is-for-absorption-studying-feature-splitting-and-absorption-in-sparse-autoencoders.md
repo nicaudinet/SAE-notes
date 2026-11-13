@@ -1,4 +1,5 @@
 ---
+title: "A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders"
 tags:
   - paper
 ---

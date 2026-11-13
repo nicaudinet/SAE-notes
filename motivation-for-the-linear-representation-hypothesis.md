@@ -1,3 +1,6 @@
+---
+title: Motivation for the linear representation hypothesis
+---
 Here's the [paper](./the-linear-representation-hypothesis-and-the-geometry-of-large-language-models.md) that formalises the [linear representation hypothesis](./linear-representation-hypothesis.md).
 
 Here's another [paper](./a-survey-on-the-linear-representation-hypothesis.md) which takes this formalisation further and makes it scientifically falsifiable. 

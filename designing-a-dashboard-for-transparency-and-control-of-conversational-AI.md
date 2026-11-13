@@ -1,4 +1,5 @@
 ---
+title: Designing a Dashboard for Transparency and Control of Conversational AI
 tags:
   - paper
 ---
